@@ -1,0 +1,24 @@
+{
+  "name": "EBAC-pasta-do-exercicio-20",
+  "version": "1.0.0",
+  "description": "curso-frontend-mod-20\" # Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asobrabj/curso-frontend-mod-20.git"
+  },
+  "keywords": [],
+  "author": "Jose Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asobrabj/curso-frontend-mod-20/issues"
+  },
+  "homepage": "https://github.com/asobrabj/curso-frontend-mod-20#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3"
+  }
+}

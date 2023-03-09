@@ -180,7 +180,7 @@ $(document).ready(function () {
    }
 
    /* valida tipo email */
-   /*
+   
    function ValidateEmail(email) {
       var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
       //var mailformat = /^[a-z0-9]+@[a-z0-9]+\.[a-z]+(\.[a-z]+)?/i;
@@ -193,7 +193,7 @@ $(document).ready(function () {
          return false;
       }
    }
-*/
+
 
    $('body').on('submit', '.modal-body .form', function (e) {
 
@@ -202,12 +202,11 @@ $(document).ready(function () {
       const inputName = $('#nome')
       const inputEmail = $('#email')
 
-      /*
       email_val = document.getElementById('email')
       console.log(email_val.value)
       
       ValidateEmail(email_val)
-      */
+      
 
       validate(inputName)
       validate(inputEmail)
@@ -226,7 +225,7 @@ $(document).ready(function () {
    })
 
 /* linha on blur*/
-/*
+
 $('body').on('blur', '#nome', function () {
    validate($(this))
 })
@@ -268,7 +267,7 @@ $('body').on('blur', '#cpf', function () {
    $(this).mask('999.999.999-99');
                                                          
 })
-*/
+
 
 })
 
